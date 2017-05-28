@@ -18,3 +18,5 @@ electron .
 ## TODO
 
 - Separate `webpack` configuration for different environments
+- Add app tests
+- Add ui tests
