@@ -4,19 +4,15 @@ This repository provides the bare bones for Electron applications built with `we
 
 ## Getting started
 
-
 ```
 yarn install
 yarn dev
-
 ```
 
 Open a different terminal tab
 
 ```
-
 electron .
-
 ```
 
 ## TODO
