@@ -1,0 +1,21 @@
+{
+  "name": "basic-electron-webpack",
+  "version": "1.0.0",
+  "description": "Very basic boilerplate for an Electron application with webpack 2 and webpack-dev-server.",
+  "main": "dist/main.js",
+  "author": "Michael Kuhinica <taverneiro@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "electron": "electron ."
+  },
+  "devDependencies": {
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5",
+    "write-file-webpack-plugin": "^4.0.2"
+  },
+  "dependencies": {
+    "electron": "^1.6.10"
+  }
+}
