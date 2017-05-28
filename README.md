@@ -18,4 +18,3 @@ electron .
 ## TODO
 
 - Separate `webpack` configuration for different environments
-- Copy `index.html` from the root directory instead of reusing the one on `dist/`
