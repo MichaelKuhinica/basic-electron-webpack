@@ -1,5 +1,6 @@
 const path = require('path');
 const WriteFilePlugin = require('write-file-webpack-plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   //dev
@@ -28,7 +29,11 @@ module.exports = {
   },
 
   plugins: [
-    new WriteFilePlugin(),
+    new HtmlWebpackPlugin({
+      inject: true,
+      excludeChunks: ['main']
+    }),
+    new WriteFilePlugin()
   ],
   target: 'electron'
 
